@@ -10,7 +10,8 @@ import Home from '../pages/home.vue'
 
 
 export default new VueRouter({
-  mode: 'history',
+ // mode: 'history',
+  mode:'hash',
   base: __dirname,
   routes: [
     {
